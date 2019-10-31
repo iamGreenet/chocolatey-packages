@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>traffic-monitor</id>
+    <version>1.77</version>
+    <packageSourceUrl>https://github.com/iamGreenet/chocolatey-packages/tree/master/traffic-monitor</packageSourceUrl>
+    <owners>Greenet</owners>
+    <title>Traffic Monitor</title>
+    <authors>zhongyang219</authors>
+    <projectUrl>https://github.com/zhongyang219/TrafficMonitor</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/traffic-monitor.png</iconUrl>-->
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://github.com/zhongyang219/TrafficMonitor/blob/master/LICENSE</licenseUrl>
+    <!-- <requireLicenseAcceptance>true</requireLicenseAcceptance> -->
+    <projectSourceUrl>https://github.com/zhongyang219/TrafficMonitor</projectSourceUrl>
+    <docsUrl>https://github.com/zhongyang219/TrafficMonitor/blob/master/README_en-us.md</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/zhongyang219/TrafficMonitor/issues</bugTrackerUrl>
+    <tags>traffic-monitor</tags>
+    <summary>TrafficMonitor is a network monitoring suspension window software in Windows platform. It can display the current network speed, CPU and memory usage. It also support the functions of display in the taskbar, change skin and historical traffic statistics.</summary>
+    <description><![CDATA[
+TrafficMonitor is a network monitoring suspension window software in Windows platform. It can display the current network speed, CPU and memory usage. It also support the functions of display in the taskbar, change skin and historical traffic statistics.
+
+# Main Features
+
+- Displays the current network transfer speed, CPU and memory usage.
+- Support automatic or manual selection of network connections if there are multiple network adapters.
+- Display the network connection details.
+- Support the window displayed in the taskbar.
+- Support for changing skin and customizing skin.
+- Historical traffic statistics.
+]]></description>
+    <releaseNotes>https://github.com/zhongyang219/TrafficMonitor/releases</releaseNotes>
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
