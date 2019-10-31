@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>clash-for-windows</id>
+    <version>0.7.12</version>
+    <packageSourceUrl>https://github.com/iamGreenet/chocolatey-packages/tree/master/clash-for-windows</packageSourceUrl>
+    <owners>Greenet</owners>
+    <title>Clash for Windows</title>
+    <authors>Fndroid</authors>
+    <projectUrl>https://github.com/Fndroid/clash_for_windows_pkg</projectUrl>
+    <!-- <iconUrl>https://rawcdn.githack.com/iamGreenet/chocolatey-packages/22714042fb41c28561728857a213f5025eae1d9d/clash-for-windows/icon.png</iconUrl> -->
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://github.com/Dreamacro/clash/blob/master/LICENSE</licenseUrl>
+    <!-- <projectSourceUrl>https://github.com/Fndroid/clash_for_windows_pkg</projectSourceUrl> -->
+    <docsUrl>https://docs.cfw.lbyczf.com/</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/Fndroid/clash_for_windows_pkg/issues</bugTrackerUrl>
+    <tags>clash v2ray shadowsocks</tags>
+    <summary>A Windows GUI based on Clash</summary>
+    <description><![CDATA[
+# Clash
+A rule-based tunnel in Go.
+# Clash for Windows
+A Windows GUI based on Clash
+]]></description>
+    <releaseNotes>https://github.com/Fndroid/clash_for_windows_pkg/releases</releaseNotes>
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
