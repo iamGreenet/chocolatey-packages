@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>bohe-accelerator</id>
+    <version>1.0.3.4</version>
+    <packageSourceUrl>https://github.com/iamGreenet/chocolatey-packages/tree/master/bohe-accelerator</packageSourceUrl>
+    <owners>Greenet</owners>
+    <title>Bohe Game Accelerator (薄荷游戏加速器)</title>
+    <authors>武汉薄荷科技有限公司</authors>
+    <projectUrl>https://cn.bohe.com/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/iamGreenet/chocolatey-packages/e0396e100d0924dfb12bc8be2ec89ae3c13abafe/bohe-accelerator/icon.png</iconUrl>
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://cn.bohe.com/notify.html</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://cn.bohe.com/notify.html</bugTrackerUrl>
+    <tags>bohe-accelerator game-accelerator</tags>
+    <summary>Free accelerate for Game and App, etc. 薄荷免费加速—独享专线互联游戏、视频、网页、直播、音乐、商务、APP加速</summary>
+    <description><![CDATA[
+# Professional Game Acceleration
+
+Bohe accelerator focuses on game acceleration services and deployed hundreds of nodes. It can effectively solve game problems such as high latency and dropped frame in the game. Bohe accelerator supports hundreds of game to accelerate.
+
+# Support Windows, Mac And Mobile phone
+Bohe accelerator supports multi-platform game acceleration.
+
+# 专业游戏加速
+
+薄荷加速器专注游戏加速服务，部署上百节点，能够有效解决游戏中遇到的延时高、登录卡顿、掉帧、瞬移等游戏问题。薄荷加速支持上百款游戏加速，让你畅快玩国际服外服游戏。
+
+# WIN+MAC+移动端 支持更多使用场景
+
+BOHE推出了Windows、Mac、iPhone、iPad、Android客户端,全方位满足您的加速需求。让您的生活更精彩更便捷。BOHE不断用最新最稳定的技术,让产品更加具有竞争力, 让您使用得更放心。
+
+# 专业的技术保障 贴心的客服咨询服务
+
+BOHE成立专业的运维团队, 时刻监控产品动态, 发现问题能够在第一时间去解决,最大限度减少对用户的影响。同时, 我们还有贴心的客服咨询服务, 不管是售前咨询, 还是售后服务, 我们都会用一颗真诚并充满热情的心，解决您的烦恼。
+
+武汉薄荷科技有限公司 是一家新型互联网科技公司，成立于2018年。公司旗下拳头产品“薄荷加速器”是一款专为提升跨地域网页浏览，音乐欣赏，视频观看的网络加速软件，“薄荷加速器”通过专业核心技术及骨干网络专线能有效降低网络访问延迟。我们通过不断拓展互联网业务领域，致力于将薄荷加速器打造成一款为千万用户服务的优质加速软件。
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
