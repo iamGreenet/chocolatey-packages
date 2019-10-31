@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dismplusplus</id>
+    <version>10.1.1000.100</version>
+    <packageSourceUrl>https://github.com/iamGreenet/chocolatey-packages/tree/master/dismplusplus</packageSourceUrl>
+    <owners>Greenet</owners>
+    <title>Dism++</title>
+    <authors>Chuyu-Team</authors>
+    <projectUrl>https://www.chuyu.me</projectUrl>
+    <!-- <iconUrl>https://rawcdn.githack.com/StanLeon/chocolatey-packages/e0396e100d0924dfb12bc8be2ec89ae3c13abafe/dismplusplus/icon.png</iconUrl> -->
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://github.com/Chuyu-Team/Dism-Multi-language/blob/master/LICENSE</licenseUrl>
+    <!-- <requireLicenseAcceptance>true</requireLicenseAcceptance> -->
+    <projectSourceUrl>https://github.com/Chuyu-Team/Dism-Multi-language</projectSourceUrl>
+    <docsUrl>https://www.chuyu.me/zh-Hans/Document.html</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/Chuyu-Team/Dism-Multi-language/issues</bugTrackerUrl>
+    <tags>dismplusplus dism++</tags>
+    <summary>a Windows utils</summary>
+    <description><![CDATA[
+Dism++ is a GUI of Dism, but not depend on Dism, Directly based on low level CBS（Component Based Servicing Reference）
+]]></description>
+    <releaseNotes>https://github.com/Chuyu-Team/Dism-Multi-language/blob/master/UpdateHistory.md</releaseNotes>
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
