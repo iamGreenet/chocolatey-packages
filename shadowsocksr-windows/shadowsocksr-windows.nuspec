@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>shadowsocksr-windows</id>
+    <version>5.1.5</version>
+    <packageSourceUrl>https://github.com/iamGreenet/chocolatey-packages/tree/master/shadowsocksr-windows</packageSourceUrl>
+    <owners>Greenet</owners>
+    <title>ShadowsocksR-Windows (HMBSbige)</title>
+    <authors>HMBSbige</authors>
+    <projectUrl>https://github.com/HMBSbige/ShadowsocksR-Windows</projectUrl>
+    <!-- <iconUrl>https://rawcdn.githack.com/StanLeon/chocolatey-packages/aca8241e577964324ef061396830c86c4c72f126/shadowsocksr-windows/icon.png</iconUrl> -->
+    <copyright>Copyright © HMBSbige 2019</copyright>
+    <licenseUrl>https://github.com/HMBSbige/ShadowsocksR-Windows/blob/master/LICENSE</licenseUrl>
+    <!-- <requireLicenseAcceptance>true</requireLicenseAcceptance> -->
+    <projectSourceUrl>https://github.com/HMBSbige/ShadowsocksR-Windows</projectSourceUrl>
+    <docsUrl>https://github.com/HMBSbige/ShadowsocksR-Windows/wiki</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/HMBSbige/ShadowsocksR-Windows/issues</bugTrackerUrl>
+    <tags>shadowsocksr-windows ssr ss</tags>
+    <summary>ShadowsocksR for Windows</summary>
+    <description><![CDATA[
+A proxy client for windows
+]]></description>
+    <releaseNotes>https://github.com/HMBSbige/ShadowsocksR-Windows/releases</releaseNotes>
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
