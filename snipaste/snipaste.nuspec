@@ -8,7 +8,7 @@
     <title>Snipaste</title>
     <authors>snipaste team</authors>
     <projectUrl>https://zh.snipaste.com</projectUrl>
-    <!-- <iconUrl>https://rawcdn.githack.com/StanLeon/chocolatey-packages/e0396e100d0924dfb12bc8be2ec89ae3c13abafe/snipaste/icon.png</iconUrl> -->
+    <iconUrl>https://rawcdn.githack.com/iamGreenet/chocolatey-packages/49d229ec3be6ee5590d14f0ba8f0657fcaedc298/snipaste/icon.png</iconUrl>
     <copyright>© 2016-2019 Snipaste.</copyright>
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
