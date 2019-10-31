@@ -8,7 +8,7 @@
     <title>Netch</title>
     <authors>NetchX</authors>
     <projectUrl>https://github.com/NetchX/Netch</projectUrl>
-    <!-- <iconUrl>https://rawcdn.githack.com/iamGreenet/chocolatey-packages/e0396e100d0924dfb12bc8be2ec89ae3c13abafe/netch/icon.png</iconUrl> -->
+    <iconUrl>https://rawcdn.githack.com/iamGreenet/chocolatey-packages/3a74633f7e85cfae8809fc8b9a1e0db4eafe434c/netch/icon.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://github.com/NetchX/Netch/blob/master/LICENSE</licenseUrl>
     <!-- <requireLicenseAcceptance>true</requireLicenseAcceptance> -->
