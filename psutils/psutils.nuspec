@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>psutils</id>
+    <version>2018.8.5</version>
+    <packageSourceUrl>https://github.com/iamGreenet/chocolatey-packages/tree/master/psutils</packageSourceUrl>
+    <owners>Greenet</owners>
+    <title>psutils (no new window)</title>
+    <authors>lukesampson</authors>
+    <projectUrl>https://github.com/lukesampson/psutils</projectUrl>
+    <!-- IconUrl: Skip check -->
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/psutils.png</iconUrl>-->
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://github.com/lukesampson/psutils/blob/master/LICENSE</licenseUrl>
+    <!-- <requireLicenseAcceptance>true</requireLicenseAcceptance> -->
+    <projectSourceUrl>https://github.com/lukesampson/psutils</projectSourceUrl>
+    <docsUrl>https://github.com/lukesampson/psutils/blob/master/README.md</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/lukesampson/psutils/issues</bugTrackerUrl>
+    <tags>psutils powershell-utils ln runat say shasum sudo time touch vimtutor</tags>
+    <summary>Command line utilities written in Powershell</summary>
+    <description><![CDATA[
+A collection of command line utilities written in PowerShell, proudly ignoring PowerShell Verb-Noun naming conventions.
+
+- gitignore - Fetches .gitignore file templates from gitignore.io and writes them to standard output.
+- ln - An approximation of the Unix ln command.
+- runat - A replacement for the at command which Microsoft has deprecated and removed in Windows 2012.
+- say - An approximation of say from macOS.
+- shasum - An approximation of shasum.
+- sudo - An approximation of the Unix sudo command. Shows a UAC popup window unfortunately.
+- time - An approximation of the Unix time command.
+- touch - A port of the Unix touch command.
+- vimtutor - The vimtutor that comes with Vim for Windows doesn't work with Scoop. This one does.
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
