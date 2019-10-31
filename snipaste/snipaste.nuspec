@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>snipaste</id>
+    <version>2.2.4-Beta</version>
+    <packageSourceUrl>https://github.com/iamGreenet/chocolatey-packages/tree/master/snipaste</packageSourceUrl>
+    <owners>Greenet</owners>
+    <title>Snipaste</title>
+    <authors>snipaste team</authors>
+    <projectUrl>https://zh.snipaste.com</projectUrl>
+    <!-- <iconUrl>https://rawcdn.githack.com/StanLeon/chocolatey-packages/e0396e100d0924dfb12bc8be2ec89ae3c13abafe/snipaste/icon.png</iconUrl> -->
+    <copyright>© 2016-2019 Snipaste.</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://docs.snipaste.com/zh-cn/</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/Snipaste/feedback/issues</bugTrackerUrl>
+    <tags>snipaste screenshot</tags>
+    <summary>Snipaste - 截图 + 贴图</summary>
+    <description>Snipaste is not just a snipping tool.
+
+    It can boost your productivity if you get used to its 'paste'!</description>
+    <releaseNotes># v2.2.3
+    - [专业版] 支持以固定长宽比截图
+    - [专业版] 修复启动之后首次超级截图会崩溃 #1260
+    - [专业版] 修复贴图管理窗口关闭后无法再次显示的问题
+    - 修复截图时保存文件对话框无法用 `Esc` 取消保存 #1257
+    - 修复使用韩语输入法时文字标注吃字的问题
+    - 改善对高对比度模式的支持
+    - 防止一些简单按键被设为全局快捷键
+    - 其他一些小改进</releaseNotes>
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
