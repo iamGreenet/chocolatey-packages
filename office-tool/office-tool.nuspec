@@ -3,12 +3,12 @@
   <metadata>
     <id>office-tool</id>
     <version>7.0.0</version>
-    <packageSourceUrl>https://github.com/iamGreenet/chocolatey-packages/tree/master/office-tool</packageSourceUrl>
-    <owners>Greenet</owners>
+    <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/office-tool</packageSourceUrl>
+    <owners>Greenim</owners>
     <title>Office Tool Plus</title>
     <authors>Yerong</authors>
     <projectUrl>https://otp.landian.vip/zh-cn/#</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/iamGreenet/chocolatey-packages/5e39ed0335c2ec79e75319879de1256eddab2f34/office-tool/icon.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/iamGreenim/chocolatey-packages/5e39ed0335c2ec79e75319879de1256eddab2f34/office-tool/icon.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://github.com/YerongAI/Office-Tool/blob/master/LICENSE</licenseUrl>
     <!-- <requireLicenseAcceptance>true</requireLicenseAcceptance> -->

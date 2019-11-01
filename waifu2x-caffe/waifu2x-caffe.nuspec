@@ -3,8 +3,8 @@
   <metadata>
     <id>waifu2x-caffe</id>
     <version>1.2.0.2</version>
-    <packageSourceUrl>https://github.com/iamGreenet/chocolatey-packages/tree/master/waifu2x-caffe</packageSourceUrl>
-    <owners>Greenet</owners>
+    <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/waifu2x-caffe</packageSourceUrl>
+    <owners>Greenim</owners>
     <title>waifu2x-caffe</title>
     <authors>lltcggie</authors>
     <projectUrl>https://github.com/lltcggie/waifu2x-caffe</projectUrl>
