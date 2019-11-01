@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>iris</id>
+    <version>1.2.0</version>
+    <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/iris</packageSourceUrl>
+    <owners>Greenim</owners>
+    <title>Iris</title>
+    <authors>__REPLACE_AUTHORS_OF_SOFTWARE_COMMA_SEPARATED__</authors>
+    <projectUrl>https://_Software_Location_REMOVE_OR_FILL_OUT_</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/iris.png</iconUrl>-->
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://iristech.co/help/</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>iris blue-light-filter protect-eye</tags>
+    <summary>💡👨‍💻 Iris - Software for Eye protection, Health and Productivity 🛌👀</summary>
+    <description><![CDATA[
+# Iris
+
+💡👨‍💻 Iris - Software for Eye protection, Health and Productivity 🛌👀
+
+## Prevent Eye strain
+
+Iris optimizes screen pulsations by controlling the brightness without PWM. You will be able to use your computer for longer without headaches.
+
+## Reduce Eye pain
+
+Iris will match your screen brightness to the light around you. Different presets will automatically adjust your screen. Using computers will feel like reading a book.
+
+## Improve Sleep
+
+Iris will gradually regulate blue light day and night. This will help your body to produce more melatonin at night. You will fall asleep faster and sleep deeper.		
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
