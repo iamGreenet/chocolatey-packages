@@ -6,9 +6,9 @@
     <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/iris</packageSourceUrl>
     <owners>Greenim</owners>
     <title>Iris</title>
-    <authors>__REPLACE_AUTHORS_OF_SOFTWARE_COMMA_SEPARATED__</authors>
-    <projectUrl>https://_Software_Location_REMOVE_OR_FILL_OUT_</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/iris.png</iconUrl>-->
+    <authors>danielng01</authors>
+    <projectUrl>https://iristech.co/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/iamGreenim/chocolatey-packages/e93402754b109be22f849d2cd9ab23279d756529/iris/icon.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
