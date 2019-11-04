@@ -3,8 +3,8 @@ $releases = 'https://github.com/HMBSbige/ShadowsocksR-Windows/releases'
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	
-    $regex = 'win32.zip$'
-    $regex64 = 'win64.zip$'
+    $regex = 'win32.+zip$'
+    $regex64 = 'win64.+zip$'
     $url = -Join ('https://github.com', ($download_page.links | ? href -match $regex | select -First 1 -expand href))
     $url64 = -Join ('https://github.com', ($download_page.links | ? href -match $regex64 | select -First 1 -expand href))
 	
