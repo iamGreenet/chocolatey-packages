@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 #$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://github.com/YerongAI/Office-Tool/releases/download/7.0.0/OTP.zip'
-$checksum = 'e718d8aaf4be81dcd0c7ce5cfa723073322cdb3f0da89a5d98cdc4426fbda562'
+$url = 'https://github.com/YerongAI/Office-Tool/releases/download/7.0.1.2/Office.Tool.v7.0.1.zip'
+$checksum = '4b013d696d94bd92c2a120e656bc86e2ab11bdd0162ce141b7745e460dab4545'
 
 $shortcutsPath = [Environment]::GetFolderPath("Programs")
 $title = $env:ChocolateyPackageTitle
