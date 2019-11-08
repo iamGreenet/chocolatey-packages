@@ -1,0 +1,1 @@
+Get-Process "Office Tool Plus" | Stop-Process -Force
