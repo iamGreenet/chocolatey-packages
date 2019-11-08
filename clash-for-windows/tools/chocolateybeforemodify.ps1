@@ -1,0 +1,1 @@
+Get-Process "Clash for Windows" | Stop-Process -Force

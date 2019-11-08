@@ -1,0 +1,1 @@
+Get-Process "Iris" | Stop-Process -Force

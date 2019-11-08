@@ -1,0 +1,1 @@
+Get-Process "Snipaste" | Stop-Process -Force

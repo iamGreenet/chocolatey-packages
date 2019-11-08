@@ -1,0 +1,1 @@
+Get-Process "TrafficMonitor" | Stop-Process -Force

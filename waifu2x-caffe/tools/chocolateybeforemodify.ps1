@@ -1,0 +1,1 @@
+Get-Process "waifu2x-caffe" | Stop-Process -Force

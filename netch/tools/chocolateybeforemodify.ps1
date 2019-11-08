@@ -1,0 +1,1 @@
+Get-Process "Netch" | Stop-Process -Force
