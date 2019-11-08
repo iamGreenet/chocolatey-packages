@@ -8,7 +8,7 @@
     <title>Mailspring for Windows</title>
     <authors>Foundry376</authors>
     <projectUrl>https://getmailspring.com/</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/mailspring.png</iconUrl>-->
+    <iconUrl>https://rawcdn.githack.com/iamGreenim/chocolatey-packages/6152994fdec99625a04e85df27d067bf26014762/mailspring/icon.ico</iconUrl>
     <copyright>© 2017-2019 Foundry 376, LLC.</copyright>
     <licenseUrl>https://github.com/Foundry376/Mailspring/blob/master/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
