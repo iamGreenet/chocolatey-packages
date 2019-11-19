@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>mellow</id>
+    <version>0.1.10</version>
+    <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/mellow</packageSourceUrl>
+    <owners>Greenim</owners>
+    <!-- This section is about the software itself -->
+    <title>Mellow</title>
+    <authors>mellow-io</authors>
+    <projectUrl>https://github.com/mellow-io/mellow</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/mellow.png</iconUrl>-->
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <!-- If there is a license Url available, it is required for the community feed -->
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <projectSourceUrl>https://github.com/mellow-io/mellow</projectSourceUrl>
+    <docsUrl>https://github.com/mellow-io/mellow/blob/master/README.md</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/mellow-io/mellow/issues</bugTrackerUrl>
+    <tags>mellow shadowsocks vmess socks transparent-proxy http</tags>
+    <summary>Mellow is a rule-based global transparent proxy client for Windows, macOS and Linux.</summary>
+    <description><![CDATA[
+See [README](https://github.com/mellow-io/mellow/blob/master/README.md)
+]]></description>
+    <releaseNotes>https://github.com/mellow-io/mellow/releases</releaseNotes>
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

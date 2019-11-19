@@ -1,0 +1,1 @@
+﻿Get-Process Mellow -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
