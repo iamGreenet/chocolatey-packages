@@ -8,7 +8,7 @@
     <title>PicGo</title>
     <authors>Molunerfinn</authors>
     <projectUrl>https://molunerfinn.com/PicGo/</projectUrl>
-    <!-- <iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/picgo.png</iconUrl> -->
+    <iconUrl>https://rawcdn.githack.com/iamGreenim/chocolatey-packages/ef880abda20f9351b6e16059c141cc4eeedf7f4e/picgo/icon.png</iconUrl>
     <copyright>Copyright (c) 2017 - 2019 Molunerfinn</copyright>
     <licenseUrl>https://github.com/Molunerfinn/PicGo/blob/dev/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
