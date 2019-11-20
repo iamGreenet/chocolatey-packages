@@ -1,1 +1,1 @@
-Get-Process "Office Tool Plus" | Stop-Process -Force
+Get-Process "Office Tool Plus" -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue

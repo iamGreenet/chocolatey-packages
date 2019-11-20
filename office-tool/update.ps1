@@ -1,7 +1,7 @@
 $releases = 'https://github.com/YerongAI/Office-Tool/releases'
 
 function global:au_GetLatest{
-	$download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing #1
+	$download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	
     $regex = '.zip$'
     $url = $download_page.links | ? href -match $regex | select -First 1 -expand href
