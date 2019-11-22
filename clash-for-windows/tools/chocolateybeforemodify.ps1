@@ -1,1 +1,1 @@
-Get-Process "Clash for Windows" | Stop-Process -Force
+Get-Process "Clash for Windows" -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
