@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>mellow</id>
-    <version>0.1.10</version>
+    <version>0.1.11</version>
     <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/mellow</packageSourceUrl>
-    <owners>Greenim</owners>
+    <owners>Yato</owners>
     <!-- This section is about the software itself -->
     <title>Mellow</title>
     <authors>mellow-io</authors>
