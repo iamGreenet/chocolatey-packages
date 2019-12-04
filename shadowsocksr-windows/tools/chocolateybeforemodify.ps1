@@ -1,1 +1,1 @@
-Get-Process "ShadowsocksR" | Stop-Process -Force
+Get-Process "ShadowsocksR" -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
