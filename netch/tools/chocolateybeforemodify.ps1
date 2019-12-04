@@ -1,1 +1,1 @@
-Get-Process "Netch" | Stop-Process -Force
+Get-Process "Netch" -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue

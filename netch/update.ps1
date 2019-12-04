@@ -1,7 +1,7 @@
 $releases = 'https://github.com/NetchX/Netch/releases'
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing #1
+    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
     
     $regex = 'x86.7z$'
     $regex64 = 'x64.7z$'
@@ -19,7 +19,7 @@ function global:au_SearchReplace {
         "tools\chocolateyInstall.ps1" = @{
             "(^[$]url\s*=\s*)('.*')"      = "`$1'$($Latest.URL)'"
             "(^[$]url64\s*=\s*)('.*')"      = "`$1'$($Latest.URL64)'"
-            "(^[$]checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum)'"
+            "(^[$]checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
             "(^[$]checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
         }
     }
