@@ -1,8 +1,8 @@
 ﻿
 $ErrorActionPreference = 'Stop';
 #$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.8.5/Clash.for.Windows.Setup.0.8.5.exe'
-$checksum = '2b51a2294a2b48d96f0b8d61dd0ba90e91f9a6ee6b3c3caaf49f0ebbe3dabe5c'
+$url = 'https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.8.6/Clash.for.Windows.Setup.0.8.6.exe'
+$checksum = 'd709b564d6c497c2fafbaa3cc6c224f8c87b4bf5c00dd29f3689be8758df7663'
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
