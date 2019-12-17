@@ -1,0 +1,1 @@
+﻿Get-Process Termius -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
