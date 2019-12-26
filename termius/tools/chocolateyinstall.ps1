@@ -1,5 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $url = 'https://autoupdate.termius.com/win/Termius.exe'
+$checksum = '0c32ae433b194050333a030ab68ae39ce132641414cc6c415171571bfd98692b'
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
@@ -8,7 +9,7 @@ $packageArgs = @{
 
   softwareName   = 'termius*'
 
-  checksum       = '8EB7AD02E5528E6167AB7F4987BCF2D5116D65C2A77A8D1212B7DC634619597A'
+  checksum       = $checksum
   checksumType   = 'sha256'
 
   validExitCodes = @(0, 3010, 1641)
