@@ -4,16 +4,16 @@
     <id>office-tool</id>
     <version>7.3.1.0</version>
     <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/office-tool</packageSourceUrl>
-    <owners>Greenim</owners>
+    <owners>StanLeon</owners>
     <title>Office Tool Plus</title>
     <authors>Yerong</authors>
     <projectUrl>https://otp.landian.vip/zh-cn/#</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/iamGreenim/chocolatey-packages/5e39ed0335c2ec79e75319879de1256eddab2f34/office-tool/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/iamGreenim/chocolatey-packages@5e39ed0/office-tool/icon.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://github.com/YerongAI/Office-Tool/blob/master/LICENSE</licenseUrl>
     <!-- <requireLicenseAcceptance>true</requireLicenseAcceptance> -->
     <projectSourceUrl>https://github.com/YerongAI/Office-Tool</projectSourceUrl>
-    <docsUrl>https://otp.landian.vip/en-us/faq.html</docsUrl>
+    <docsUrl>https://otp.landian.vip/en-us/</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/YerongAI/Office-Tool/issues</bugTrackerUrl>
     <tags>otp office office-tool-plus</tags>

@@ -4,7 +4,7 @@
     <id>traffic-monitor</id>
     <version>1.77</version>
     <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/traffic-monitor</packageSourceUrl>
-    <owners>Greenim</owners>
+    <owners>StanLeon</owners>
     <title>Traffic Monitor</title>
     <authors>zhongyang219</authors>
     <projectUrl>https://github.com/zhongyang219/TrafficMonitor</projectUrl>

@@ -4,11 +4,11 @@
     <id>iris</id>
     <version>1.2.0</version>
     <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/iris</packageSourceUrl>
-    <owners>Greenim</owners>
+    <owners>Yato</owners>
     <title>Iris</title>
     <authors>danielng01</authors>
     <projectUrl>https://iristech.co/</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/iamGreenim/chocolatey-packages/e93402754b109be22f849d2cd9ab23279d756529/iris/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/iamGreenim/chocolatey-packages@e934027/iris/icon.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->

@@ -1,7 +1,7 @@
 $releases = 'https://zh.snipaste.com'
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing #1
+    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	
     $regex = "win-x86-beta-cn"
     $regex64 = "win-x64-beta-cn"

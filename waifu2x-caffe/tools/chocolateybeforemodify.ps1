@@ -1,1 +1,1 @@
-Get-Process "waifu2x-caffe" | Stop-Process -Force
+Get-Process "waifu2x-caffe" -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue

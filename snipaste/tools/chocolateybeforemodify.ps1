@@ -1,1 +1,1 @@
-Get-Process "Snipaste" | Stop-Process -Force
+Get-Process "Snipaste" -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue

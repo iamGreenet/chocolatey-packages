@@ -4,21 +4,32 @@
     <id>picgo</id>
     <version>2.1.2</version>
     <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/picgo</packageSourceUrl>
-    <owners>Greenim</owners>
+    <owners>StanLeon</owners>
     <title>PicGo</title>
     <authors>Molunerfinn</authors>
     <projectUrl>https://molunerfinn.com/PicGo/</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/iamGreenim/chocolatey-packages/ef880abda20f9351b6e16059c141cc4eeedf7f4e/picgo/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/iamGreenim/chocolatey-packages@ef880ab/picgo/icon.png</iconUrl>
     <copyright>Copyright (c) 2017 - 2019 Molunerfinn</copyright>
     <licenseUrl>https://github.com/Molunerfinn/PicGo/blob/dev/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/Molunerfinn/PicGo</projectSourceUrl>
-    <docsUrl>https://github.com/Molunerfinn/PicGo/wiki</docsUrl>
+    <docsUrl>https://github.com/Molunerfinn/PicGo/blob/dev/FAQ.md</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/Molunerfinn/PicGo/issues</bugTrackerUrl>
     <tags>picgo</tags>
     <summary>🚀A simple beautiful tool for pictures uploading built by electron-vue</summary>
-    <description>https://github.com/Molunerfinn/PicGo/blob/dev/README.md</description>
+    <description><![CDATA[
+Picgo can help you to upload your image to below list, and copy the image url to clipboard.
+
+- Qiniu Cloud
+- Tencent COS
+- UP Cloud
+- Github
+- SM.MS
+- Ali Cloud OSS
+- Imgur
+
+]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!--<dependencies>
       <dependency id="" version="__MINIMUM_VERSION__" />

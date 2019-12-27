@@ -1,1 +1,1 @@
-Get-Process "Mailspring" | Stop-Process -Force
+Get-Process "Mailspring" -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue

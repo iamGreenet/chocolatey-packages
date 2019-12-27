@@ -1,7 +1,7 @@
 $releases = 'https://github.com/danielng01/product-builds/tree/master/Iris/Windows'
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing #1
+    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	
     $regex = ".exe$"
     $url = $download_page.links | Where-Object href -Match $regex | Select-Object -Last 1 -expand href
@@ -14,12 +14,12 @@ function global:au_GetLatest {
 }
 
 function global:au_SearchReplace {
-    # @{
-    #     "tools\chocolateyInstall.ps1" = @{
-    #         "(^[$]url\s*=\s*)('.*')"      = "`$1'$($Latest.URL)'"
-    #         "(^[$]checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
-    #     }
-    # }
+    @{
+        "tools\chocolateyInstall.ps1" = @{
+            "(^[$]url\s*=\s*)('.*')"      = "`$1'$($Latest.URL)'"
+            "(^[$]checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
+        }
+    }
 }
 
 update

@@ -4,7 +4,7 @@
     <id>psutils</id>
     <version>2018.8.5</version>
     <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/psutils</packageSourceUrl>
-    <owners>Greenim</owners>
+    <owners>StanLeon</owners>
     <title>psutils (no new window)</title>
     <authors>lukesampson</authors>
     <projectUrl>https://github.com/lukesampson/psutils</projectUrl>

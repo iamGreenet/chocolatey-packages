@@ -1,1 +1,1 @@
-Get-Process "Dism++*" | Stop-Process -Force
+Get-Process "Dism++*" -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue

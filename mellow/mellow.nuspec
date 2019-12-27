@@ -4,8 +4,7 @@
     <id>mellow</id>
     <version>0.1.11</version>
     <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/mellow</packageSourceUrl>
-    <owners>Yato</owners>
-    <!-- This section is about the software itself -->
+    <owners>StanLeon</owners>
     <title>Mellow</title>
     <authors>mellow-io</authors>
     <projectUrl>https://github.com/mellow-io/mellow</projectUrl>

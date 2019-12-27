@@ -5,7 +5,7 @@
     <version>5.2.3</version>
     <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/termius</packageSourceUrl>
     <owners>Yato</owners>
-    <title>termius (Install)</title>
+    <title>termius</title>
     <authors>termius.com</authors>
     <projectUrl>https://termius.com/</projectUrl>
     <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/termius.png</iconUrl>-->

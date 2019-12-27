@@ -1,1 +1,1 @@
-Get-Process "BoHe" | Stop-Process -Force
+Get-Process "BoHe" -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue

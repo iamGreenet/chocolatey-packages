@@ -4,11 +4,11 @@
     <id>clash-for-windows</id>
     <version>0.8.6</version>
     <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/clash-for-windows</packageSourceUrl>
-    <owners>Greenim</owners>
+    <owners>StanLeon</owners>
     <title>Clash for Windows</title>
     <authors>Fndroid</authors>
     <projectUrl>https://github.com/Fndroid/clash_for_windows_pkg</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/iamGreenim/chocolatey-packages/4d9c5083bed20cc68c9f52f94e9009eb82b33b77/clash-for-windows/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/iamGreenim/chocolatey-packages@4d9c508/clash-for-windows/icon.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://github.com/Dreamacro/clash/blob/master/LICENSE</licenseUrl>
     <!-- <projectSourceUrl>https://github.com/Fndroid/clash_for_windows_pkg</projectSourceUrl> -->

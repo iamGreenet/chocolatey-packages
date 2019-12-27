@@ -1,1 +1,1 @@
-Get-Process "Iris" | Stop-Process -Force
+Get-Process "Iris" -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue

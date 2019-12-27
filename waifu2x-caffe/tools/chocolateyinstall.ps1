@@ -10,7 +10,6 @@ $packageArgs = @{
   packageName    = $packageName
   unzipLocation  = "$localAppData"
   url            = $url
-  url64          = $url64
 
   softwareName   = 'waifu2x-caffe*'
 
