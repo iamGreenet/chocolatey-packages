@@ -1,19 +1,20 @@
 ﻿
 $ErrorActionPreference = 'Stop';
-$url        = 'https://github.com/Molunerfinn/PicGo/releases/download/v2.1.2/picgo-setup-2.1.2.exe'
+$url = 'https://github.com/Molunerfinn/PicGo/releases/download/v2.2.0/PicGo-Setup-2.2.0.exe'
+$checksum = '44847a99206b3009ca357817b04c0005947c941b029dd4963e189d5623109f2d'
 
 $packageArgs = @{
-  packageName   = $env:ChocolateyPackageName
-  fileType      = 'exe'
-  url           = $url
+  packageName    = $env:ChocolateyPackageName
+  fileType       = 'exe'
+  url            = $url
 
-  softwareName  = 'PicGo*'
+  softwareName   = 'PicGo*'
 
-  checksum      = '6650B71FBB75D2D8A60950548D332D52E680F66E4920DB26194F4AAC3DE719E9'
-  checksumType  = 'sha256'
+  checksum       = $checksum
+  checksumType   = 'sha256'
 
-  validExitCodes= @(0, 3010, 1641)
-  silentArgs   = '/S'
+  validExitCodes = @(0, 3010, 1641)
+  silentArgs     = '/S'
 }
 
 Install-ChocolateyPackage @packageArgs
