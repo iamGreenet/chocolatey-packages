@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 #$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://github.com/YerongAI/Office-Tool/releases/download/7.3.1.0/Office.Tool.v7.3.1.0.zip'
-$checksum = '773445b0596b8f650626b1a4ac3d6551699ea274f33a9e257a0d829d4a5163f2'
+$url = 'https://github.com/YerongAI/Office-Tool/releases/download/7.4.1.0/Office.Tool.v7.4.1.0.zip'
+$checksum = '584b81c1f80e2e5a3a2bbbadac850343dcae6985729234619c495730a8c3c538'
 
 $shortcutsPath = [Environment]::GetFolderPath("Programs")
 
@@ -20,4 +20,4 @@ $packageArgs = @{
 
 Install-ChocolateyZipPackage @packageArgs
 
-Install-ChocolateyShortcut -shortcutFilePath (Join-Path -Path $shortcutsPath -ChildPath 'Office Tool Plus.lnk') -targetPath (Join-Path -Path $Env:LOCALAPPDATA -ChildPath "Office Tool Plus.exe")
+Install-ChocolateyShortcut -shortcutFilePath (Join-Path -Path $shortcutsPath -ChildPath 'Office Tool Plus.lnk') -targetPath (Join-Path -Path $Env:LOCALAPPDATA -ChildPath "Office Tool\Office Tool Plus.exe")
