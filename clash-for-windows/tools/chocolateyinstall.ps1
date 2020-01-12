@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
-$url = 'https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.8.8/Clash.for.Windows.Setup.0.8.8.exe'
-$checksum = '8b1244869b48bd88c764bec385b1ab3c74358724876e4589df1f410a6f5046a7'
+$url = 'https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.8.9/Clash.for.Windows.Setup.0.8.9.exe'
+$checksum = 'b53400d3aa0ca49efdea87b95b9cafa91ec23008efbd882d03770cdaecb6ae91'
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
