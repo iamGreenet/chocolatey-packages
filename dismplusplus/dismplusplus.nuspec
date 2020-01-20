@@ -1,18 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dismplusplus</id>
-    <version>10.1.1000.100</version>
-    <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/dismplusplus</packageSourceUrl>
+    <version>10.1.1001.10</version>
+    <packageSourceUrl>https://github.com/iYato/chocolatey-packages/tree/master/dismplusplus</packageSourceUrl>
     <owners>StanLeon</owners>
     <title>Dism++</title>
     <authors>Chuyu-Team</authors>
     <projectUrl>https://www.chuyu.me</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/iamGreenim/chocolatey-packages@3c3a11b/dismplusplus/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/iYato/chocolatey-packages@3c3a11b/dismplusplus/icon.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
-    <licenseUrl>https://github.com/Chuyu-Team/Dism-Multi-language/blob/master/LICENSE</licenseUrl>
+    <!-- <licenseUrl>https://github.com/Chuyu-Team/Dism-Multi-language/blob/master/LICENSE</licenseUrl> -->
     <!-- <requireLicenseAcceptance>true</requireLicenseAcceptance> -->
-    <projectSourceUrl>https://github.com/Chuyu-Team/Dism-Multi-language</projectSourceUrl>
+    <!-- <projectSourceUrl>https://github.com/Chuyu-Team/Dism-Multi-language</projectSourceUrl> -->
     <docsUrl>https://www.chuyu.me/zh-Hans/Document.html</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/Chuyu-Team/Dism-Multi-language/issues</bugTrackerUrl>

@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 #$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'http://cdn.chuyu.me/Dism++10.1.1000.100_2d2bf466baca088c4b35248f5a7316f4e00cac0b.zip'
-$checksum = '3C5887911ABB2A3C47AC7F2D8B9E375583D1742BEAC57EBC3C64E6315218B6A5'
+$url = 'http://cdn.chuyu.me/Dism++10.1.1001.10_d4ba4eb035254b3326d6adc6638bc9c8daea7018.zip'
+$checksum = '9149f635096571cd67a82a2efa113c819b8b9005e4f29d6f0d6eb26bb15ed41c'
 
 $shortcutsPath = [Environment]::GetFolderPath("Programs")
 $title = $env:ChocolateyPackageTitle
