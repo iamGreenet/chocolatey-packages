@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>psutils</id>
-    <version>2018.8.5</version>
-    <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/psutils</packageSourceUrl>
+    <version>2020.1.26</version>
+    <packageSourceUrl>https://github.com/iYato/chocolatey-packages/tree/master/psutils</packageSourceUrl>
     <owners>StanLeon</owners>
     <title>psutils (no new window)</title>
     <authors>lukesampson</authors>
