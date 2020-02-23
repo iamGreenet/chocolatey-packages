@@ -1,15 +1,18 @@
-$releases = 'https://www.snipaste.com'
+$releases = 'https://bitbucket.org/liule/snipaste/downloads/'
 
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	
-    $regex = "win-x86-beta"
-    $regex64 = "win-x64-beta"
-    $url = $download_page.links | Where-Object href -Match $regex | Select-Object -First 1 -expand href
-    $url64 = $download_page.links | Where-Object href -Match $regex64 | Select-Object -First 1 -expand href
+    $regex = "-x86.zip"
+    $regex64 = "-x64.zip"
 
-    $download_page -match 'v([\d.]+) Beta'
-    $version = $Matches[1] + '-Beta'
+    $url = 'https://bitbucket.org'
+    $url64 = $url
+    $url += $download_page.links | Where-Object href -Match $regex | Select-Object -First 1 -expand href
+    $url64 += $download_page.links | Where-Object href -Match $regex64 | Select-Object -First 1 -expand href
+
+    $url -match 'Snipaste-([\w-.]+)-x86.zip$'
+    $version = $Matches[1]
     
     return @{ Version = $version; URL = $url; URL64 = $url64 }
 }
