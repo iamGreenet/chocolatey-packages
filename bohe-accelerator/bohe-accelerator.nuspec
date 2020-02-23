@@ -3,12 +3,12 @@
   <metadata>
     <id>bohe-accelerator</id>
     <version>1.0.3.4</version>
-    <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/bohe-accelerator</packageSourceUrl>
+    <packageSourceUrl>https://github.com/iYato/chocolatey-packages/tree/master/bohe-accelerator</packageSourceUrl>
     <owners>StanLeon</owners>
     <title>Bohe Game Accelerator</title>
     <authors>武汉薄荷科技有限公司</authors>
     <projectUrl>https://cn.bohe.com/</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/iamGreenim/chocolatey-packages@0cdde52/bohe-accelerator/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/iYato/chocolatey-packages@0cdde52/bohe-accelerator/icon.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
