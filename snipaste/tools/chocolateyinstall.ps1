@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
-$url = 'https://dl.snipaste.com/win-x86-beta-cn'
-$url64 = 'https://dl.snipaste.com/win-x64-beta-cn'
-$checksum = '1d2bee8e99f6c407cc10eb8b38f1f71fd78d44255c4368b988587a6cb2060b99'
-$checksum64 = '31dcd4dfedc4afa0f52dac775ee645b4b23e8ef54438dc677ff9de1c10ca2c47'
+$url = 'https://dl.snipaste.com/win-x86-beta'
+$url64 = 'https://dl.snipaste.com/win-x64-beta'
+$checksum = '3f91e1d94c9ba45b4e3345f616da473b4c453e19e6806f5db021d29cc9ea9dc0'
+$checksum64 = '09069c9d79c111cfe4b3b30199bf26291e5faf1a8e202444dc01e51eb6c3e071'
 
 $shortcutsPath = [Environment]::GetFolderPath("Programs")
 $localAppData = $Env:LOCALAPPDATA

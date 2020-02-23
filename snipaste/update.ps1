@@ -1,10 +1,10 @@
-$releases = 'https://zh.snipaste.com'
+$releases = 'https://www.snipaste.com'
 
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	
-    $regex = "win-x86-beta-cn"
-    $regex64 = "win-x64-beta-cn"
+    $regex = "win-x86-beta"
+    $regex64 = "win-x64-beta"
     $url = $download_page.links | Where-Object href -Match $regex | Select-Object -First 1 -expand href
     $url64 = $download_page.links | Where-Object href -Match $regex64 | Select-Object -First 1 -expand href
 
