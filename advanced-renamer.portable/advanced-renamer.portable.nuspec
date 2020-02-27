@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>advanced-renamer.portable</id>
+    <version>3.85</version>
+    <packageSourceUrl>https://github.com/iYato/chocolatey-packages/tree/master/advanced-renamer.portable</packageSourceUrl>
+    <owners>Yato</owners>
+    <title>advanced-renamer (Portable)</title>
+    <authors>Kim Jensen</authors>
+    <projectUrl>https://www.advancedrenamer.com/</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/advanced-renamer.png</iconUrl>-->
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://www.advancedrenamer.com/user_guide/license</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://www.advancedrenamer.com/user_guide/gettingstarted</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <tags>advanced-renamer renamer</tags>
+    <summary>Batch file renaming utility for Windows.</summary>
+    <description><![CDATA[
+Advanced Renamer is a program for renaming multiple files and folders at once. By configuring renaming methods the names can be manipulated in various ways.
+
+It is easy to set up a batch job using multiple methods on a large amount of files. The 14 different methods enables you to change the names, attributes, and timestamps of files in one go. The files can also be copied or moved to new locations based on information in the files.
+
+With Advanced Renamer you can construct new file names by adding, removing, replacing, changing case, or giving the file a brand new name based on known information about the file.
+
+Before performing the operations on the files you can verify that the output will be correct and if you perform the rename and regret it, you can undo the complete batch.
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

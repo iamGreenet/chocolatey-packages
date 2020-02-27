@@ -1,0 +1,1 @@
+﻿Get-Process 'ARen' -ErrorAction SilentlyContinue | Stop-Process -ErrorAction SilentlyContinue
