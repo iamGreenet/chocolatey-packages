@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
-$url = 'https://github.com/mellow-io/mellow/releases/download/v0.1.12/Mellow.Setup.0.1.12.exe'
-$checksum = '58f20447ad628c39891e5557029f58a997caff657e0624f42bd631a6d1146ece'
+$url = 'https://github.com/mellow-io/mellow/releases/download/v0.1.13/Mellow.Setup.0.1.13.exe'
+$checksum = 'c30c80fe89fe0a315397ac8d0a94c1c1899a99c961d303ae4c88ed6913fdbcba'
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
