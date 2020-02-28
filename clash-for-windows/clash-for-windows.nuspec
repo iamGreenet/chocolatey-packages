@@ -2,20 +2,20 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>clash-for-windows</id>
-    <version>0.8.11</version>
-    <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/clash-for-windows</packageSourceUrl>
+    <version>0.9.0</version>
+    <packageSourceUrl>https://github.com/iYato/chocolatey-packages/tree/master/clash-for-windows</packageSourceUrl>
     <owners>StanLeon</owners>
     <title>Clash for Windows</title>
     <authors>Fndroid</authors>
     <projectUrl>https://github.com/Fndroid/clash_for_windows_pkg</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/iamGreenim/chocolatey-packages@4d9c508/clash-for-windows/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/iYato/chocolatey-packages@4d9c508/clash-for-windows/icon.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://github.com/Dreamacro/clash/blob/master/LICENSE</licenseUrl>
     <!-- <projectSourceUrl>https://github.com/Fndroid/clash_for_windows_pkg</projectSourceUrl> -->
     <docsUrl>https://docs.cfw.lbyczf.com/</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/Fndroid/clash_for_windows_pkg/issues</bugTrackerUrl>
-    <tags>clash v2ray shadowsocks</tags>
+    <tags>clash v2ray shadowsocks http-proxy socks-proxy</tags>
     <summary>A Windows GUI based on Clash</summary>
     <description><![CDATA[
 # Clash
