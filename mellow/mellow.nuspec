@@ -14,13 +14,19 @@
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
     <projectSourceUrl>https://github.com/mellow-io/mellow</projectSourceUrl>
-    <docsUrl>https://github.com/mellow-io/mellow/blob/master/README.md</docsUrl>
+    <docsUrl>https://github.com/mellow-io/mellow/blob/master/README.en.md</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/mellow-io/mellow/issues</bugTrackerUrl>
-    <tags>mellow shadowsocks vmess socks transparent-proxy http</tags>
+    <tags>mellow shadowsocks vmess socks-proxy transparent-proxy http-proxy</tags>
     <summary>Mellow is a rule-based global transparent proxy client for Windows, macOS and Linux.</summary>
     <description><![CDATA[
-See [README](https://github.com/mellow-io/mellow/blob/master/README.md)
+# Mellow
+
+A V2Ray client that can handle all TCP/UDP/ICMP traffic with domain/IP/app rules.
+
+More about official description at [README](https://github.com/mellow-io/mellow/blob/master/README.en.md)
+
+更多官方描述请移步至 [README](https://github.com/mellow-io/mellow/blob/master/README.md)
 ]]></description>
     <releaseNotes>https://github.com/mellow-io/mellow/releases</releaseNotes>
     <!--<dependencies>
