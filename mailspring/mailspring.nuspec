@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>mailspring</id>
-    <version>1.7.2</version>
-    <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/mailspring</packageSourceUrl>
+    <version>1.7.4</version>
+    <packageSourceUrl>https://github.com/iYato/chocolatey-packages/tree/master/mailspring</packageSourceUrl>
     <owners>Yato</owners>
     <title>Mailspring for Windows</title>
     <authors>Foundry376</authors>
     <projectUrl>https://getmailspring.com/</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/iamGreenim/chocolatey-packages@6152994/mailspring/icon.ico</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/iYato/chocolatey-packages@6152994/mailspring/icon.ico</iconUrl>
     <copyright>© 2017-2019 Foundry 376, LLC.</copyright>
     <licenseUrl>https://github.com/Foundry376/Mailspring/blob/master/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
