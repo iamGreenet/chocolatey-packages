@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>motrix.portable</id>
+    <version>1.4.1</version>
+    <packageSourceUrl>https://github.com/iYato/chocolatey-packages/tree/master/motrix.portable</packageSourceUrl>
+    <owners>Yato</owners>
+    <title>motrix.portable</title>
+    <authors>agalwood</authors>
+    <projectUrl>https://motrix.app/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/iYato/chocolatey-packages@master/motrix.portable/icon.png</iconUrl>
+    <copyright>©2019 Motrix</copyright>
+    <licenseUrl>https://github.com/agalwood/Motrix/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/agalwood/Motrix</projectSourceUrl>
+    <docsUrl>https://github.com/agalwood/Motrix/wiki</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/agalwood/Motrix/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc</bugTrackerUrl>
+    <tags>motrix p2p</tags>
+    <summary>A full-featured download manager.</summary>
+    <description><![CDATA[
+Motrix is a full-featured download manager that supports downloading HTTP, FTP, BitTorrent, Magnet, Baidu Net Disk, etc.
+
+More description and docs at [README](https://github.com/agalwood/Motrix/blob/master/README.md)
+]]></description>
+    <releaseNotes>https://github.com/agalwood/Motrix/releases</releaseNotes>
+
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

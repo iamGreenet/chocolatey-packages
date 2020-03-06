@@ -1,0 +1,1 @@
+﻿Get-Process Motrix,aria2c -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
