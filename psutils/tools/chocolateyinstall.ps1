@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url = 'https://github.com/lukesampson/psutils/archive/master.zip'
-$checksum = '2F601C517555478EC619688C1AF64F530BA172AA0015298C3556CCBA71C75A3B'
+$checksum = 'B327C5A8363BFBF89AB0610D502CAEEA04E05C92B281843D1982999F3D25FEAD'
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
