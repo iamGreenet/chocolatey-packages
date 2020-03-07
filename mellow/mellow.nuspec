@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>mellow</id>
-    <version>0.1.13</version>
+    <version>0.1.14</version>
     <packageSourceUrl>https://github.com/iYato/chocolatey-packages/tree/master/mellow</packageSourceUrl>
     <owners>StanLeon</owners>
     <title>Mellow</title>
