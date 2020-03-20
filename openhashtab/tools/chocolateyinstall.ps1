@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
-$url        = 'https://github.com/namazso/OpenHashTab/releases/download/v2.1.0/OpenHashTab_setup.exe'
-$checksum = '5A126C2DF806F6EF3AE14E65B18B081C55044CF60D255D7DBBDEDE1A371AE0C9'
+$url        = 'https://github.com/namazso/OpenHashTab/releases/download/v2.2.0/OpenHashTab_setup.exe'
+$checksum = 'ab2a232a3b2833ef92cae9053d39af90ced0ea19f653a9e09fe1389457adedee'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
