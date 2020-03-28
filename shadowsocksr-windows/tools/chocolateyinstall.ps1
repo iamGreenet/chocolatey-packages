@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
-$url = 'https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.1.8.5/ShadowsocksR-net48-5.1.8.5.zip'
-$checksum = '7899de848ae53996573f0a5b8df149890af9d345588d706651386908369169ee'
+$url = 'https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.1.8.6/ShadowsocksR-net48-5.1.8.6.zip'
+$checksum = '1e0d144afc1357547154286ad0accf0db7f05dbee840e032f2e88332cc3930fe'
 
 $shortcutsPath = [Environment]::GetFolderPath("Programs")
 $localAppData = $Env:LOCALAPPDATA
