@@ -1,9 +1,9 @@
 ﻿$ErrorActionPreference = 'Stop';
 #$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://github.com/NetchX/Netch/releases/download/1.4.1-Beta5/Netch.x86-1.4.1-Beta5.zip'
-$checksum = '88C0050C141CB58D6DE763E790470BFC27BD97CA1CE11BA30580DEFC69B20EB2'
-$url64 = 'https://github.com/NetchX/Netch/releases/download/1.4.1-Beta5/Netch.x64-1.4.1-Beta5.zip'
-$checksum64 = 'C6C974FA5F1AEF803452633E210A46C2B5DC63F6BA49AE93ACC5745E97CC0429'
+$url = 'https://github.com/NetchX/Netch/releases/download/v1.4.1/Netch.x86-v1.4.1.zip'
+$checksum = '4faa31059ec8752f357697e584a21271c5bc1ad5ac9a34db9e68e4d456164c34'
+$url64 = 'https://github.com/NetchX/Netch/releases/download/v1.4.1/Netch.x64-v1.4.1.zip'
+$checksum64 = '7170ed0ade0b261c2cbab4861116f3cb1fef93d18c5268ebde59facf15656012'
 $title = $env:ChocolateyPackageTitle
 
 $localAppData = $Env:LOCALAPPDATA

@@ -3,17 +3,13 @@ $releases = 'https://github.com/NetchX/Netch/releases'
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
     
-    $regex = 'x86.(zip|7z)$'
-    $regex64 = 'x64.(zip|7z)$'
+    $regex = 'Netch.*x86.*.(zip|7z)$'
+    $regex64 = 'Netch.*x64.*.(zip|7z)$'
     $url = -Join ('https://github.com', ($download_page.links | ? href -match $regex | select -First 1 -expand href))
     $url64 = -Join ('https://github.com', ($download_page.links | ? href -match $regex64 | select -First 1 -expand href))
     
-    $url64 -match 'Netch.([.\w]+).x64.(zip|7z)$'
+    $url64 -match '/download/v?([\d.]+)/'
     $version = $matches[1]
-
-    if ($version -match 'Pr$') {
-        $version = $version -replace 'Pr','-pre'
-    }
 	
     return @{ Version = $version; URL = $url; URL64 = $url64 }
 }
