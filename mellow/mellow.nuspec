@@ -14,7 +14,7 @@
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
     <projectSourceUrl>https://github.com/mellow-io/mellow</projectSourceUrl>
-    <docsUrl>https://github.com/mellow-io/mellow/blob/master/README.en.md</docsUrl>
+    <docsUrl>https://github.com/mellow-io/mellow/blob/237712977d855f3a578178af16d03daab671e044/README.en.md</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/mellow-io/mellow/issues</bugTrackerUrl>
     <tags>mellow shadowsocks vmess socks-proxy transparent-proxy http-proxy</tags>
