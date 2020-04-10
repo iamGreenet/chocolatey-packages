@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>mellow</id>
-    <version>0.1.18</version>
+    <version>0.1.19</version>
     <packageSourceUrl>https://github.com/iYato/chocolatey-packages/tree/master/mellow</packageSourceUrl>
-    <owners>StanLeon</owners>
+    <owners>Yato</owners>
     <title>Mellow</title>
     <authors>mellow-io</authors>
     <projectUrl>https://github.com/mellow-io/mellow</projectUrl>
@@ -24,7 +24,7 @@
 
 A V2Ray client that can handle all TCP/UDP/ICMP traffic with domain/IP/app rules.
 
-More about official description at [README](https://github.com/mellow-io/mellow/blob/master/README.en.md)
+More about official description at [README](https://github.com/mellow-io/mellow/blob/237712977d855f3a578178af16d03daab671e044/README.en.md)
 
 更多官方描述请移步至 [README](https://github.com/mellow-io/mellow/blob/master/README.md)
 ]]></description>
