@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
-$url = 'https://bitbucket.org/liule/snipaste/downloads/Snipaste-2.3.3-Beta-x86.zip'
-$url64 = 'https://bitbucket.org/liule/snipaste/downloads/Snipaste-2.3.3-Beta-x64.zip'
-$checksum = '5b6e2a5696fe28b3b345977b52ea7bd5c8d89fa26744f69c261ddc047939026b'
-$checksum64 = '9c3e85019107a44be942af07640d4ea0a725bb11ea4a47da4ca1b3e073306545'
+$url = 'https://bitbucket.org/liule/snipaste/downloads/Snipaste-2.3.5-Beta-x86.zip'
+$url64 = 'https://bitbucket.org/liule/snipaste/downloads/Snipaste-2.3.5-Beta-x64.zip'
+$checksum = 'a4f2e169940c1968bfba1908a7ebd4a99044019895092ab5a58bcc13bf4fa0f8'
+$checksum64 = 'e4bbe8aad3fc98ff0e1b8a24f3e4e5793aa1bccca81058b31649bf7159f9fd5e'
 
 $shortcutsPath = [Environment]::GetFolderPath("Programs")
 $localAppData = $Env:LOCALAPPDATA
