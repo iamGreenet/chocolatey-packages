@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>tableplus</id>
+    <version>3.4.2</version>
+    <packageSourceUrl>https://github.com/iYato/chocolatey-packages/tree/master/tableplus</packageSourceUrl>
+    <owners>Yato</owners>
+    <title>TablePlus (Install)</title>
+    <authors>TablePlus Inc</authors>
+    <projectUrl>https://tableplus.com/windows</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/iYato/chocolatey-packages/tableplus/icon.png</iconUrl>
+    <copyright>© 2020 TablePlus Inc. 1100-1959 Upper Water Street, Halifax NS Canada. All rights reserved</copyright>
+    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <docsUrl>https://docs.tableplus.com/</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/TablePlus/TablePlus/issues</bugTrackerUrl>
+    <tags>tableplus database-management postgresql mysql sql-server redis mariadb sqlite amazon-redshift</tags>
+    <summary><![CDATA[Modern, native, and friendly GUI tool for relational databases: MySQL, PostgreSQL, SQLite & more]]></summary>
+    <description><![CDATA[
+
+Modern, native, and friendly GUI tool for relational databases: MySQL, PostgreSQL, SQLite & more
+
+More description at official [website](https://tableplus.com/windows)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
