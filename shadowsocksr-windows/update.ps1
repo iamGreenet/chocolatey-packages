@@ -1,7 +1,7 @@
 $releases = 'https://github.com/HMBSbige/ShadowsocksR-Windows/releases'
 
 function global:au_BeforeUpdate() {
-    Get-RemoteFiles -Purge
+    Get-RemoteFiles -Purge -NoSuffix
 }
 
 function global:au_GetLatest {
@@ -20,6 +20,11 @@ function global:au_SearchReplace {
     @{
         "tools\chocolateyInstall.ps1" = @{
             "(^[$]fileName\s*=\s*)('.*')" = "`$1'$($Latest.FileName32)'"
+        }
+
+        "tools\verification.txt" = @{
+            "(?i)(32-Bit.+)\<.*\>" = "`${1}<$($Latest.URL32)>"
+            "(?i)(checksum32:\s+).*" = "`${1}$($Latest.Checksum32)"
         }
     }
 }

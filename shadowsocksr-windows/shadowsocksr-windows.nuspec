@@ -3,12 +3,12 @@
   <metadata>
     <id>shadowsocksr-windows</id>
     <version>5.1.9</version>
-    <packageSourceUrl>https://github.com/iamGreenim/chocolatey-packages/tree/master/shadowsocksr-windows</packageSourceUrl>
+    <packageSourceUrl>https://github.com/iYato/chocolatey-packages/tree/master/shadowsocksr-windows</packageSourceUrl>
     <owners>StanLeon</owners>
     <title>ShadowsocksR-Windows (HMBSbige)</title>
     <authors>HMBSbige</authors>
     <projectUrl>https://github.com/HMBSbige/ShadowsocksR-Windows</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/iamGreenim/chocolatey-packages@689e4bf/shadowsocksr-windows/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/iYato/chocolatey-packages/shadowsocksr-windows/icon.png</iconUrl>
     <copyright>Copyright © HMBSbige 2019</copyright>
     <licenseUrl>https://github.com/HMBSbige/ShadowsocksR-Windows/blob/master/LICENSE</licenseUrl>
     <!-- <requireLicenseAcceptance>true</requireLicenseAcceptance> -->
