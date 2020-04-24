@@ -10,8 +10,8 @@
     <projectUrl>https://tableplus.com/windows</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/iYato/chocolatey-packages/tableplus/icon.png</iconUrl>
     <copyright>© 2020 TablePlus Inc. 1100-1959 Upper Water Street, Halifax NS Canada. All rights reserved</copyright>
-    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <licenseUrl>https://tableplus.com/blog/2018/01/license-agreement.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <docsUrl>https://docs.tableplus.com/</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
@@ -23,8 +23,18 @@
 Modern, native, and friendly GUI tool for relational databases: MySQL, PostgreSQL, SQLite & more
 
 More description at official [website](https://tableplus.com/windows)
+
+## Install Guide
+
+### Specify the installation path
+
+eg: Install to `C:\tableplus`.
+
+```powershell
+choco install tableplus --ia '/DIR="C:\tableplus"'
+```
 ]]></description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <releaseNotes>https://tableplus.com/blog/2018/09/changelogs-windows.html</releaseNotes>
     <!--<dependencies>
       <dependency id="" version="__MINIMUM_VERSION__" />
       <dependency id="" version="[__EXACT_VERSION__]" />
