@@ -1,5 +1,9 @@
 $releases = 'https://github.com/Fndroid/clash_for_windows_pkg/releases'
 
+function global:au_BeforeUpdate() {
+    Get-RemoteFiles -Purge -NoSuffix
+}
+
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	
@@ -10,16 +14,20 @@ function global:au_GetLatest {
     $url -match 'Setup\.([\d.]+)\.exe' | Out-Null
     $version = $matches[1]
 	
-    return @{ Version = $version; URL = $url }
+    return @{ Version = $version; URL64 = $url }
 }
 
 function global:au_SearchReplace {
     @{
         "tools\chocolateyInstall.ps1" = @{
-            "(^[$]url\s*=\s*)('.*')"      = "`$1'$($Latest.URL)'"
-            "(^[$]checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
+            "(^[$]fileName64\s*=\s*)('.*')" = "`$1'$($Latest.FileName64)'"
+        }
+
+        "tools\verification.txt" = @{
+            "(?i)(64-Bit.+)\<.*\>" = "`${1}<$($Latest.URL64)>"
+            "(?i)(checksum64:\s+).*" = "`${1}$($Latest.Checksum64)"
         }
     }
 }
 
-if ($MyInvocation.InvocationName -ne '.') { update }
+if ($MyInvocation.InvocationName -ne '.') { update -ChecksumFor none }
