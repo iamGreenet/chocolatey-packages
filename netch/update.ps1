@@ -12,7 +12,7 @@ function global:au_GetLatest {
     $url = -Join ('https://github.com', ($download_page.links | Where-Object href -match $regex | Select-Object -First 1 -expand href))
     $url64 = -Join ('https://github.com', ($download_page.links | Where-Object href -match $regex64 | Select-Object -First 1 -expand href))
     
-    $url64 -match '/download/v?([\d.]+)/'
+    $url64 -match '/download/v?([\w-.]+)/'
     $version = $matches[1]
 	
     return @{ Version = $version; URL32 = $url; URL64 = $url64 }
