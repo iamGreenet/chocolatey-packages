@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ventoy</id>
+    <version>1.0.07</version>
+    <packageSourceUrl>https://github.com/iYato/chocolatey-packages/tree/master/ventoy</packageSourceUrl>
+    <owners>Yato</owners>
+    <title>ventoy</title>
+    <authors>ventoy.net</authors>
+    <projectUrl>https://www.ventoy.net</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/iYato/chocolatey-packages/ventoy/icon.png</iconUrl>
+    <copyright>Copyright © 2019-2020 longpanda</copyright>
+    <licenseUrl>https://github.com/ventoy/Ventoy/blob/master/GPLv3</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/ventoy/Ventoy</projectSourceUrl>
+    <docsUrl>https://www.ventoy.net/doc_news.html</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/ventoy/Ventoy/issues</bugTrackerUrl>
+    <tags>ventoy </tags>
+    <summary>Ventoy is an open source tool to create bootable USB drive for ISO files.</summary>
+    <description><![CDATA[
+Ventoy is an open source tool to create bootable USB drive for ISO files.
+With ventoy, you don't need to format the disk again and again, you just need to copy the iso file to the USB drive and boot it.
+You can copy many iso files at a time and ventoy will give you a boot menu to select them.
+Both Legacy BIOS and UEFI are supported in the same way. 200+ ISO files are tested.
+A "Ventoy Compatible" concept is introduced by ventoy, which can help to support any ISO file.
+
+See [ventoy.net](https://www.ventoy.net/) for detail.
+    ]]></description>
+    <releaseNotes>https://github.com/ventoy/Ventoy/releases</releaseNotes>
+
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
