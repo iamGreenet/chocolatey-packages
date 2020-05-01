@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ventoy</id>
-    <version>1.0.08-beta2</version>
+    <version>1.0.08</version>
     <packageSourceUrl>https://github.com/iYato/chocolatey-packages/tree/master/ventoy</packageSourceUrl>
     <owners>Yato</owners>
-    <title>ventoy</title>
+    <title>Ventoy</title>
     <authors>ventoy.net</authors>
     <projectUrl>https://www.ventoy.net</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/iYato/chocolatey-packages/ventoy/icon.png</iconUrl>
