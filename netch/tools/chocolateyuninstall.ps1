@@ -1,11 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$shortcutsPath = [Environment]::GetFolderPath("Programs")
+$shortcutPath = [Environment]::GetFolderPath("Programs") + "\Netch.lnk"
 $localAppData = $Env:LOCALAPPDATA
-$packageName = $env:ChocolateyPackageName
-$installPath = Join-Path -Path "$localAppData" -ChildPath "$packageName"
+$installPath = "$Env:LOCALAPPDATA\$env:ChocolateyPackageName"
 
-Remove-Item -Path (Join-Path -Path $shortcutsPath -ChildPath 'Netch.lnk') -ErrorAction SilentlyContinue
+Remove-Item -Path $shortcutPath -ErrorAction SilentlyContinue
 if (Test-Path "$installPath") { 
     Remove-Item -Path "$installPath" -Recurse -Force -ErrorAction SilentlyContinue
 }

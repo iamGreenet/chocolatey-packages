@@ -1,15 +1,14 @@
 ﻿$ErrorActionPreference = 'Stop';
+
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageName = $env:ChocolateyPackageName
-$localAppData = $Env:LOCALAPPDATA
-$shortcutsPath = [Environment]::GetFolderPath("Programs")
-$fileName32 = 'Netch.x86-1.4.3.zip'
-$fileName64 = 'Netch.x64-1.4.3.zip'
+$unzipLocation = "$Env:LOCALAPPDATA\$packageName"
+$shortcutPath = [Environment]::GetFolderPath("Programs") + "\Netch.lnk"
+$fileName64 = 'Netch-1.4.4.zip'
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
-  unzipLocation  = "$localAppData\$packageName\"
-  file           = "$toolsDir\$fileName32"
+  unzipLocation  = $unzipLocation
   file64         = "$toolsDir\$fileName64"
 
   softwareName   = 'netch*'
@@ -19,4 +18,4 @@ $packageArgs = @{
 
 Install-ChocolateyZipPackage @packageArgs
 
-Install-ChocolateyShortcut -shortcutFilePath (Join-Path -Path $shortcutsPath -ChildPath 'Netch.lnk') -Target (Join-Path -Path $localAppData -ChildPath "$packageName\Netch.exe")
+Install-ChocolateyShortcut -shortcutFilePath $shortcutPath -Target "$unzipLocation\Netch.exe"
