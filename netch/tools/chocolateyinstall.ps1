@@ -4,7 +4,7 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageName = $env:ChocolateyPackageName
 $unzipLocation = "$Env:LOCALAPPDATA\$packageName"
 $shortcutPath = [Environment]::GetFolderPath("Programs") + "\Netch.lnk"
-$fileName64 = 'Netch-1.4.4.zip'
+$fileName64 = 'Netch.zip'
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
