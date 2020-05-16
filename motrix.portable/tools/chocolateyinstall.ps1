@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
-$url = 'https://github.com/agalwood/Motrix/releases/download/v1.4.1/Motrix-1.4.1-ia32-win.zip'
-$url64 = 'https://github.com/agalwood/Motrix/releases/download/v1.4.1/Motrix-1.4.1-win.zip'
-$checksum = '4BF2BB8272D7E7A48130DC65B3CA313C91DAA0CF2F4C2603F7CE822793757C55'
-$checksum64 = 'D42F72EA029FC29A38A1FB9439EAE8CB677FC243E8D9AFE35F2F6576F7F7DFBA'
+$url = 'https://github.com/agalwood/Motrix/releases/download/v1.5.10/Motrix-1.5.10-ia32-win.zip'
+$url64 = 'https://github.com/agalwood/Motrix/releases/download/v1.5.10/Motrix-1.5.10-win.zip'
+$checksum = 'b794a2480aff90d25923a6dbf706d46f5d8e4b088295dffcc77699eebf8afe1b'
+$checksum64 = 'c71ac2726688e0efe34626e27215c28808594f0b57bab3375052982ae9b7a12b'
 $packageName = $env:ChocolateyPackageName
 $shortcutsPath = [Environment]::GetFolderPath("Programs")
 
