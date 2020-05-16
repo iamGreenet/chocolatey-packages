@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
-$url = 'https://github.com/ventoy/Ventoy/releases/download/v1.0.09/ventoy-1.0.09-windows.zip'
-$checksum = '5506cec07f4cd9f6f049de5aa7cbfb33dd7c61e5bb92f8b6d355f0fe9c038bbd'
+$url = 'https://github.com/ventoy/Ventoy/releases/download/v1.0.10/ventoy-1.0.10-windows.zip'
+$checksum = '95b863088b9a234658f323d529c0c52e3edd80fa7799e6cb5d8240fe6db097a6'
 
 $packageName = $env:ChocolateyPackageName
 $shortcutsPath = Join-Path ([Environment]::GetFolderPath("Programs")) 'Ventoy.lnk'
