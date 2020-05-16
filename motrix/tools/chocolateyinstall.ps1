@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
-$url = 'https://github.com/agalwood/Motrix/releases/download/v1.4.1/Motrix-Setup-1.4.1.exe'
-$checksum = 'FA78A33628485DC760840EF648A948327C67B0595951C41C82B0923710210F90'
+$url = 'https://github.com/agalwood/Motrix/releases/download/v1.5.10/Motrix-Setup-1.5.10.exe'
+$checksum = '11d8984dc17a8c4e424daa69e84bba397b033eb5267c3dc728ce49da447e2336'
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
