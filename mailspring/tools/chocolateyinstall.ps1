@@ -1,7 +1,7 @@
 ﻿
 $ErrorActionPreference = 'Stop';
-$url = 'https://github.com/Foundry376/Mailspring/releases/download/1.7.6/MailspringSetup.exe'
-$checksum = '4536da18168e19f6e00ee7b3b531c238ccbe45b97e96bce2cca64106f6687761'
+$url = 'https://github.com/Foundry376/Mailspring/releases/download/1.7.7/MailspringSetup.exe'
+$checksum = '85ce024f160acb2741b74523e879803e9c0424a35f0da47aae266a1c71f9f217'
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
