@@ -2,7 +2,7 @@ $au_root = $PSScriptRoot
 $Options = [ordered]@{
     Timeout  = 10
     Threads  = 10
-    Push     = $true
+    Push     = $false
 
     RepeatOn = @(
         'Could not create SSL/TLS secure channel'
