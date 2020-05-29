@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $url = 'https://autoupdate.termius.com/win/Termius.exe'
-$checksum = 'ae486938890e1c83bc5c29f0f5e8994fb38ffc255d253d863d28d0d2f9132a2a'
+$checksum = '8564d681670430ed779f1d1e5529cc27a63b516d9b5f20c29c137a2a50ea7964'
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
