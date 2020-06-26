@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ventoy</id>
-    <version>1.0.13</version>
+    <version>1.0.14</version>
     <packageSourceUrl>https://github.com/iYato/chocolatey-packages/tree/master/ventoy</packageSourceUrl>
     <owners>Yato</owners>
     <title>Ventoy</title>
@@ -10,7 +10,7 @@
     <projectUrl>https://www.ventoy.net</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/iYato/chocolatey-packages/ventoy/icon.png</iconUrl>
     <copyright>Copyright © 2019-2020 longpanda</copyright>
-    <licenseUrl>https://github.com/ventoy/Ventoy/blob/master/GPLv3</licenseUrl>
+    <licenseUrl>https://www.ventoy.net/doc_license.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/ventoy/Ventoy</projectSourceUrl>
     <docsUrl>https://www.ventoy.net/doc_news.html</docsUrl>

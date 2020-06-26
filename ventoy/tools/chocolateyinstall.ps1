@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
-$url = 'https://github.com/ventoy/Ventoy/releases/download/v1.0.13/ventoy-1.0.13-windows.zip'
-$checksum = '9b5debbdade41332d9fea4c966a08743e9a263c79ed0e0e95fdba5ba0f139f09'
+$url = 'https://github.com/ventoy/Ventoy/releases/download/v1.0.14/ventoy-1.0.14-windows.zip'
+$checksum = '3248b154284335f6a17e5d376e6b85f34795449f81b12e6162d5ae559494f9ff'
 
 $packageName = $env:ChocolateyPackageName
 $shortcutsPath = Join-Path ([Environment]::GetFolderPath("Programs")) 'Ventoy.lnk'
@@ -19,7 +19,7 @@ Install-ChocolateyZipPackage @packageArgs
 
 Get-ChildItem -Path $unzipPath | Get-ChildItem | Move-Item -Destination $unzipPath
 
-Install-ChocolateyShortcut -shortcutFilePath $shortcutsPath -Target "$unzipPath\Ventoy2Disk.exe"
+Install-ChocolateyShortcut -shortcutFilePath $shortcutsPath -Target "$unzipPath\Ventoy2Disk.exe" -WorkingDirectory $unzipPath
 
 
 
