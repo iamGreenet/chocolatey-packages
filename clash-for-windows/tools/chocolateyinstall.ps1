@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$fileName64 = 'Clash.for.Windows.Setup.0.10.3.exe'
+$fileName64 = 'Clash.for.Windows.Setup.0.10.4.exe'
 
 $packageArgs = @{
   packageName  = $env:ChocolateyPackageName
