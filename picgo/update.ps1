@@ -8,7 +8,7 @@ function global:au_GetLatest{
 	
 	$url = -Join('https://github.com', $url)
 	$url -match '/download/v?([\w-.]+)/'
-    $version = $matches[1]
+    $version = $matches[1] -replace 'beta.','beta'
 	
     return @{ Version = $version; URL = $url }
 }

@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
-$url = 'https://github.com/Molunerfinn/PicGo/releases/download/v2.3.0-beta.0/PicGo-Setup-2.3.0-beta.0.exe'
-$checksum = '0a2a55c4309c9e61e43ec7acc307f43880297d59ed48c9ee4304efce7e2158b6'
+$url = 'https://github.com/Molunerfinn/PicGo/releases/download/v2.3.0-beta.1/PicGo-Setup-2.3.0-beta.1.exe'
+$checksum = '9dd16104ff95043e181ab3ab0dc14a931f8c5d1ca288366a7430ac62a2b52779'
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
