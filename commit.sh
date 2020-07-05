@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 
 RESET="\e[0m"
 BOLD_GREEN="\e[1;32m"
