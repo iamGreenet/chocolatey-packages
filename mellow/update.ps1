@@ -7,7 +7,7 @@ function global:au_GetLatest{
     $url = $download_page.links | ? href -match $regex | select -First 1 -expand href
 	
 	$url = -Join('https://github.com', $url)
-	$url -match 'Setup\.([\d.]+)\.exe' | Out-Null
+	$url -match 'Setup\.([\d.]+)\.exe'
     $version = $matches[1]
 	
     return @{ Version = $version; URL = $url }
