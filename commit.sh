@@ -7,7 +7,7 @@ BOLD_GREEN="\e[1;32m"
 mods=`git status -s | cut -c4- | awk -F'/' '{
 if ($2!="")
 	print $1
-}' | uniq`
+}' | uniq -u`
 
 for mod in $mods; do
 	version=`head "$mod/$mod.nuspec" | grep -oP '(?<=<version>).+(?=<\/version>)'`
