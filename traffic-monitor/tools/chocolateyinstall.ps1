@@ -1,9 +1,9 @@
 ﻿$ErrorActionPreference = 'Stop';
 #$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://github.com/zhongyang219/TrafficMonitor/releases/download/V1.79/TrafficMonitor_V1.79_x86.7z'
-$url64 = 'https://github.com/zhongyang219/TrafficMonitor/releases/download/V1.79/TrafficMonitor_V1.79_x64.7z'
-$checksum = 'cbb09e38b65e874edaa64ac183283e297ea66fbe428b0190db9b1b399b67b05a'
-$checksum64 = 'd489dfd6f0231cc317ab66fe26095cf5b9a8e9a88584d3d75d0815dcdf0394a4'
+$url = 'https://github.com/zhongyang219/TrafficMonitor/releases/download/V1.79.1/TrafficMonitor_V1.79.1_x86.7z'
+$url64 = 'https://github.com/zhongyang219/TrafficMonitor/releases/download/V1.79.1/TrafficMonitor_V1.79.1_x64.7z'
+$checksum = '7a203c2ccc7425de26d19fc12f5dc95b725e8f48954ba62c7fe5e8836dbf3d86'
+$checksum64 = 'b23c94c8c4c3e9baf6e7da52c91b91523f23cbbb4605c9900df3553b2d91d294'
 $packageName = $env:ChocolateyPackageName
 
 $shortcutsPath = [Environment]::GetFolderPath("Programs")
