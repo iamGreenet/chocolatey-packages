@@ -1,16 +1,14 @@
-$releases = 'https://tableplus.com/blog/2018/09/changelogs-windows.html'
+$releases = 'https://tableplus.com/release/windows/tableplus_latest'
 
 function global:au_BeforeUpdate() {
     Get-RemoteFiles -Purge -NoSuffix
 }
 
 function global:au_GetLatest{
-	$download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	
-    $regex = 'TablePlusSetup.exe$'
-    $url = $download_page.links | ? href -match $regex | select -First 1 -expand href
+	$download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing -MaximumRedirection 0 -ErrorAction SilentlyContinue
 
-	$download_page -match 'TablePlus ([\d.]+)'
+	$url = $download_page.links.href
+    $url -match '/windows/([\d.]+)/TablePlusSetup.exe'
     $version = $matches[1]
 	
     return @{ Version = $version; URL32 = $url }
