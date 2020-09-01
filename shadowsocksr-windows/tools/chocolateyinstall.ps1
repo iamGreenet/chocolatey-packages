@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
-$fileName = 'ShadowsocksR-net48-5.1.9.zip'
+$fileName64 = 'ShadowsocksR-netcore-5.1.10.7z'
 
 $shortcutsPath = [Environment]::GetFolderPath("Programs")
 $localAppData = $Env:LOCALAPPDATA
@@ -9,7 +9,7 @@ $packageName = $env:ChocolateyPackageName
 $packageArgs = @{
   packageName    = $packageName
   unzipLocation  = "$localAppData\$packageName"
-  file           = "$toolsPath\$fileName"
+  file64         = "$toolsPath\$fileName64"
 
   softwareName   = 'shadowsocksr-windows*'
 

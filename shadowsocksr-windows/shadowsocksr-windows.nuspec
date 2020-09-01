@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>shadowsocksr-windows</id>
-    <version>5.1.9</version>
+    <version>5.1.10</version>
     <packageSourceUrl>https://github.com/iYato/chocolatey-packages/tree/master/shadowsocksr-windows</packageSourceUrl>
     <owners>StanLeon</owners>
     <title>ShadowsocksR-Windows (HMBSbige)</title>
@@ -22,14 +22,9 @@
 A proxy client for windows
 ]]></description>
     <releaseNotes>https://github.com/HMBSbige/ShadowsocksR-Windows/releases</releaseNotes>
-    <!--<dependencies>
-      <dependency id="" version="__MINIMUM_VERSION__" />
-      <dependency id="" version="[__EXACT_VERSION__]" />
-      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
-      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
-      <dependency id="" />
-      <dependency id="chocolatey-core.extension" version="1.1.0" />
-    </dependencies>-->
+    <dependencies>
+      <dependency id="dotnetcore-runtime.install" version="3.1.7" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
