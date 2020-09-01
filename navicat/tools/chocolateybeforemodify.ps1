@@ -1,1 +1,0 @@
-﻿Get-Process Navicat -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
