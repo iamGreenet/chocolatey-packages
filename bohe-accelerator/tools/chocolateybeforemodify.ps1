@@ -1,1 +1,0 @@
-Get-Process "BoHe" -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
