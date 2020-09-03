@@ -13,7 +13,7 @@
     <licenseUrl>https://tableplus.com/blog/2018/01/license-agreement.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <docsUrl>https://docs.tableplus.com/</docsUrl>
+    <docsUrl>https://tableplus.com/</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/TablePlus/TablePlus/issues</bugTrackerUrl>
     <tags>tableplus database-management postgresql mysql sql-server redis mariadb sqlite amazon-redshift</tags>
