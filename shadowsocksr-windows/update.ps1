@@ -8,11 +8,11 @@ function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	
     $regex64 = 'netcore.+(zip|7z)$'
-    $url64 = -Join ('https://github.com', ($download_page.links | Where-Object href -match $regex | Select-Object -First 1 -expand href))
+    $url64 = -Join ('https://github.com', ($download_page.links | Where-Object href -match $regex64 | Select-Object -First 1 -expand href))
 	
     $url64 -match 'releases/download/([\d.]+)'
     $version = $Matches[1]
-	
+
     return @{ Version = $version; URL64 = $url64 }
 }
 
