@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
-$url = 'https://github.com/lltcggie/waifu2x-caffe/releases/download/1.2.0.3/waifu2x-caffe.zip'
-$checksum = 'a6d5627425c8e08448c7c20d1e5fc246f51c57e511e4bc757c5320ce405230a7'
+$url = 'https://github.com/lltcggie/waifu2x-caffe/releases/download/1.2.0.4/waifu2x-caffe.zip'
+$checksum = '6d3ead88280fb43226b856b9b33b79696b5da4f9baf42591f0a9abc58c2a488c'
 
 $shortcutsPath = [Environment]::GetFolderPath("Programs")
 $localAppData = $Env:LOCALAPPDATA
