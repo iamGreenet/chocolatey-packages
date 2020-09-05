@@ -14,20 +14,20 @@ function global:au_GetLatest {
     $url -match 'Setup\.([\d.]+)\.exe' | Out-Null
     $version = $matches[1]
 	
-    return @{ Version = $version; URL64 = $url }
+    return @{ Version = $version; URL32 = $url }
 }
 
 function global:au_SearchReplace {
     @{
         "tools\chocolateyInstall.ps1" = @{
-            "(^[$]fileName64\s*=\s*)('.*')" = "`$1'$($Latest.FileName64)'"
+            "(^[$]fileName32\s*=\s*)('.*')" = "`$1'$($Latest.FileName32)'"
         }
 
         "tools\verification.txt" = @{
-            "(?i)(64-Bit.+)\<.*\>" = "`${1}<$($Latest.URL64)>"
-            "(?i)(checksum64:\s+).*" = "`${1}$($Latest.Checksum64)"
+            "(?i)(32-Bit.+)\<.*\>" = "`${1}<$($Latest.URL32)>"
+            "(?i)(checksum32:\s+).*" = "`${1}$($Latest.Checksum32)"
         }
     }
 }
 
-if ($MyInvocation.InvocationName -ne '.') { update -ChecksumFor none }
+if ($MyInvocation.InvocationName -ne '.') { update -ChecksumFor none -NoCheckChocoVersion }
