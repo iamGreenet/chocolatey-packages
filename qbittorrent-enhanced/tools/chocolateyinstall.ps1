@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
-$url = 'https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.2.5.14/qbittorrent_4.2.5.14_setup.exe'
-$url64 = 'https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.2.5.14/qbittorrent_4.2.5.14_x64_setup.exe'
-$checksum = '853525f011c95a7b0416fa9e59e7a3d6de638929ff218d2e74bfaa1ad0c19261'
-$checksum64 = 'e4f6fe6caa39d189d4bab32f9438640cf631d7c6a2b1a78286da85920506b3af'
+$url = 'https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.2.5.16/qbittorrent_4.2.5.16_setup.exe'
+$url64 = 'https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.2.5.16/qbittorrent_4.2.5.16_x64_setup.exe'
+$checksum = '11902f421ed125398c8d93cb6c273f9e29d8837d889c6314dca530f09fdd9423'
+$checksum64 = 'b5cf31402a6ea215b5334b082d9bfe0dfd0d105a5da8d3ccd2af0f8d99d3ff22'
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
