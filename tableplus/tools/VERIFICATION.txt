@@ -9,4 +9,4 @@ The installer have been downloaded from tableplus.com and can be verified like t
   - Use chocolatey utility 'checksum.exe'
 
   checksum type: sha256
-  checksum32: 0ACE071A100B1BDBE972325996CF844A59511999FBF7DAB40AF7E355F02261B6
+  checksum32: 37525229DA6D02E6664D275149A7639FA76BF4CD43889AB1C7C9F5BC078BCF39
