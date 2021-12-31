@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>qbittorrent-enhanced</id>
+    <version>4.3.9.10</version>
+    <packageSourceUrl>https://github.com/iYato/chocolatey-packages/tree/master/qbittorrent-enhanced</packageSourceUrl>
+    <owners>Yato</owners>
+    <title>qbittorrent-enhanced (Install)</title>
+    <authors>c0re100</authors>
+    <projectUrl>https://github.com/c0re100/qBittorrent-Enhanced-Edition</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/qbittorrent-enhanced.png</iconUrl>-->
+    <!-- <copyright>Year Software Vendor</copyright> -->
+    <licenseUrl>https://github.com/c0re100/qBittorrent-Enhanced-Edition/blob/v4_2_x/COPYING</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/c0re100/qBittorrent-Enhanced-Edition</projectSourceUrl>
+    <docsUrl>https://github.com/c0re100/qBittorrent-Enhanced-Edition/blob/v4_2_x/README.md</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/c0re100/qBittorrent-Enhanced-Edition/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc</bugTrackerUrl>
+    <tags>qbittorrent-enhanced torrent p2p qbittorrent</tags>
+    <summary>[Unofficial] qBittorrent BitTorrent client (Enhanced Edition)</summary>
+    <description><![CDATA[
+[Unofficial] qBittorrent BitTorrent client (Enhanced Edition)
+
+More description at [README](https://github.com/c0re100/qBittorrent-Enhanced-Edition/blob/v4_2_x/README.md)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
