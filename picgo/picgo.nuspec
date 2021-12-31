@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>picgo</id>
+    <version>2.3.0</version>
+    <packageSourceUrl>https://github.com/iYato/chocolatey-packages/tree/master/picgo</packageSourceUrl>
+    <owners>Yato</owners>
+    <title>PicGo</title>
+    <authors>Molunerfinn</authors>
+    <projectUrl>https://molunerfinn.com/PicGo/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/iYato/chocolatey-packages/picgo/icon.png</iconUrl>
+    <copyright>Copyright (c) 2017 - 2019 Molunerfinn</copyright>
+    <licenseUrl>https://github.com/Molunerfinn/PicGo/blob/dev/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/Molunerfinn/PicGo</projectSourceUrl>
+    <docsUrl>https://github.com/Molunerfinn/PicGo/blob/dev/FAQ.md</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/Molunerfinn/PicGo/issues</bugTrackerUrl>
+    <tags>picgo</tags>
+    <summary>🚀A simple beautiful tool for pictures uploading built by electron-vue</summary>
+    <description><![CDATA[
+Picgo can help you to upload your image to below list, and copy the image url to clipboard.
+
+- Qiniu Cloud
+- Tencent COS
+- UP Cloud
+- Github
+- SM.MS
+- Ali Cloud OSS
+- Imgur
+
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <!--<dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
