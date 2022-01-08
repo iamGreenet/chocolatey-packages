@@ -12,7 +12,7 @@ function global:au_GetLatest {
     $url = -Join ('https://github.com', ($download_page.links | ? href -match $regex | select -First 1 -expand href))
     $url64 = -Join ('https://github.com', ($download_page.links | ? href -match $regex64 | select -First 1 -expand href))
     
-    $url64 -match 'qbittorrent_([\d.]+)_x64_setup.exe$'
+    $url64 -match '/release-v?([\d.]+)'
     $version = $matches[1]
 	
     return @{ Version = $version; URL32 = $url; URL64 = $url64 }
