@@ -4,7 +4,7 @@
 $ErrorActionPreference = 'Stop';
 
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$fileName32 = 'Office_Tool_v8.2.9.2.zip'
+$fileName32 = 'Office_Tool_v8.3.1.0.zip'
 $shortcutPath = [Environment]::GetFolderPath("Programs") + '\Office Tool Plus.lnk'
 $unzipLocation = "$Env:LOCALAPPDATA\$packageName"
 
