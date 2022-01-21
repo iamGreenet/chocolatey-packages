@@ -7,25 +7,31 @@ function global:au_BeforeUpdate() {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	
-    $regex = '.exe$'
-    $url = $download_page.links | Where-Object href -match $regex | Select-Object -First 1 -expand href
+    $regex32 = 'ia32.exe$'
+    $regex64 = 'Setup.*\.exe$'
+    $url32 = $download_page.links | Where-Object href -match $regex32 | Select-Object -First 1 -expand href
+    $url64 = $download_page.links | Where-Object href -match $regex64 | Select-Object -First 1 -expand href
 	
-    $url = -Join ('https://github.com', $url)
-    $url -match 'Setup\.([\d.]+)\.exe' | Out-Null
+    $url32 = -Join ('https://github.com', $url32)
+    $url64 = -Join ('https://github.com', $url64)
+    $url32 -match 'releases/download/v?([\d.]+)/' | Out-Null
     $version = $matches[1]
 	
-    return @{ Version = $version; URL32 = $url }
+    return @{ Version = $version; URL32 = $url32; URL64 = $url64 }
 }
 
 function global:au_SearchReplace {
     @{
         "tools\chocolateyInstall.ps1" = @{
             "(^[$]fileName32\s*=\s*)('.*')" = "`$1'$($Latest.FileName32)'"
+            "(^[$]fileName64\s*=\s*)('.*')" = "`$1'$($Latest.FileName64)'"
         }
 
         "tools\verification.txt" = @{
             "(?i)(32-Bit.+)\<.*\>" = "`${1}<$($Latest.URL32)>"
+            "(?i)(64-Bit.+)\<.*\>" = "`${1}<$($Latest.URL64)>"
             "(?i)(checksum32:\s+).*" = "`${1}$($Latest.Checksum32)"
+            "(?i)(checksum64:\s+).*" = "`${1}$($Latest.Checksum64)"
         }
     }
 }
