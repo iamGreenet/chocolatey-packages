@@ -8,7 +8,7 @@ function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 	
     $regex32 = 'ia32.exe$'
-    $regex64 = 'Setup.*\.exe$'
+    $regex64 = 'Setup[\d.]+\.exe$'
     $url32 = $download_page.links | Where-Object href -match $regex32 | Select-Object -First 1 -expand href
     $url64 = $download_page.links | Where-Object href -match $regex64 | Select-Object -First 1 -expand href
 	
