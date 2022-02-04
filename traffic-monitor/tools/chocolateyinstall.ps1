@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageName = $env:ChocolateyPackageName
-$fileName32 = 'TrafficMonitor_V1.82_x86.zip'
-$fileName64 = 'TrafficMonitor_V1.82_x64.zip'
+$fileName32 = 'TrafficMonitor_V1.83_x86.zip'
+$fileName64 = 'TrafficMonitor_V1.83_x64.zip'
 
 
 $shortcutsPath = [Environment]::GetFolderPath("Programs")
