@@ -5,12 +5,12 @@ in verifying that this package's contents are trustworthy.
 The installer have been downloaded from GitHub and can be verified like this:
 
 1. Download the following installers:
-  32-Bit: <https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.13/Clash.for.Windows.Setup.0.19.13.ia32.exe>
-  64-Bit: <https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.13/Clash.for.Windows.Setup.0.19.13.exe>
+  32-Bit: <https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.14/Clash.for.Windows.Setup.0.19.14.ia32.exe>
+  64-Bit: <https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.14/Clash.for.Windows.Setup.0.19.14.exe>
 2. You can use one of the following methods to obtain the checksum
   - Use powershell function 'Get-Filehash'
   - Use chocolatey utility 'checksum.exe'
 
   checksum type: sha256
-  checksum32: BF135C5E35CDDAF803050CF0493B369A4CCF2E4F495987B4F55C9055DAC3D30F
-  checksum64: 5CF681592B1DFCD4917D1E05B042B8EAC4F5EA8A8CF88DDB68664D875E0E24B6
+  checksum32: 5282D51E452FCC6853ACA052A12398FFF6A5490EE32646CEDB8E08AEB06D6268
+  checksum64: 64205DECB3A71448845E21DEDD1C6EA8F3870CE9FA7AFB57481A42CA13665214
