@@ -1,7 +1,9 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$shortcutsPath = [Environment]::GetFolderPath("Programs")
-$title = $env:ChocolateyPackageTitle
+$shortcutPath = [Environment]::GetFolderPath("Programs") + '\Office Tool Plus.lnk'
+$installDir = $Env:LOCALAPPDATA + '\' + $env:ChocolateyPackageName
 
-Remove-Item -Path (Join-Path -Path $shortcutsPath -ChildPath 'Office Tool Plus.lnk') -ErrorAction SilentlyContinue
-Remove-Item -Path (Join-Path -Path "$Env:LOCALAPPDATA" -ChildPath "$title") -Recurse -Force -ErrorAction SilentlyContinue
+Write-Host "Remove $shortcutPath"
+Remove-Item -Path $shortcutPath -ErrorAction SilentlyContinue
+Write-Host "Remove $installDir"
+Remove-Item -Path $installDir -Recurse -Force -ErrorAction SilentlyContinue
