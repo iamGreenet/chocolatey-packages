@@ -4,7 +4,7 @@
 $ErrorActionPreference = 'Stop';
 
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$fileName32 = 'Office_Tool_v9.0.2.8.zip'
+$fileName32 = 'Office_Tool_v9.0.2.10.zip'
 $shortcutPath = [Environment]::GetFolderPath("Programs") + '\Office Tool Plus.lnk'
 $packageName = $env:ChocolateyPackageName
 $unzipLocation = "$Env:LOCALAPPDATA\$packageName"
